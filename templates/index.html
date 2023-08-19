@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home | AItech Capital</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#006fff">
+
+  <meta name="description" content="AItech Capital: Mendorong inovasi AI melalui investasi. Bergabunglah dengan kami untuk membentuk masa depan teknologi yang didukung oleh kecerdasan buatan." />
+  <meta name="keywords" content="AI, teknologi, investasi, kecerdasan buatan, inovasi, masa depan" />
+  <meta name="author" content="AItech Capital" />
+
+  <meta property="og:title" content="AItech Capital: Mendorong Inovasi AI Melalui Investasi" />
+  <meta property="og:description" content="Bergabunglah dengan AItech Capital untuk membentuk masa depan teknologi yang didukung oleh kecerdasan buatan. Kami mendukung pengembangan chip AI dan solusi AI siap pakai." />
+  <meta property="og:image" content="URL_GAMBAR_LOGO" />
+  <meta property="og:url" content="URL_HALAMAN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AItech Capital" />
+
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fontawesome/css/all.css') }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand ms-3" href="#">
+                <img src="{{ url_for('static', filename='image/logo.jpg') }}" alt="Logo" width="20" height="20">
+                profesor corp
+            </a>
+            <div class="navbar-language">
+                <a href="#" class="language-icon me-3"><i class="fas fa-headset fa-2x"></i>
+                </i></a>
+            </div>
+        </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <!-- carousel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{ url_for('static', filename='image/carousel1.png') }}" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ url_for('static', filename='image/carousel2.png') }}" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ url_for('static', filename='image/carousel3.png') }}" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+    </div>
+    <!-- end carousel  -->
+
+
+
+    <!-- balance menu -->
+    <div class="mt-2">
+        <div class="row p-2 border border-primary-subtle rounded-top-3 small mx-2" style="background-color: var(--primary-100);">
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column align-items-center">
+                    <span>Hari Ini</span>
+                    <span>Rp.700.000</span>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column align-items-center">
+                    <span>Saldo</span>
+                    <span>Rp.2500.000</span>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="d-flex flex-column align-items-center">
+                    <span>Penarikan</span>
+                    <span>Rp.5000.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end balance menu -->
+
+
+    <!-- realtime message -->
+    <div class="p-3 text-primary-emphasis bg-primary-subtle border-primary-subtle font-small">
+        17-agust-2023 15.24 +6285814015797 memperoleh 90000
+    </div>
+    <!-- end realtime message -->
+
+    <!-- card product -->
+    <div class="card mt-2 border-3 mx-3">
+        <img src="{{ url_for('static', filename='image/chip.jpg')}}" class="img-card" alt="Sypnatic Chip">
+
+        <!-- card body -->
+        <div class="card-body">
+
+            <!-- details product -->
+            <div class="plan">
+                <div class="inner">
+                    <span class="pricing">
+                        <span>
+                            Rp.50.0000
+                        </span>
+                    </span>
+                    <p class="title">Synaptic chip</p>
+                    <p class="info">Prosesor Sinaptik adalah inovasi berbasis arsitektur jaringan saraf tiruan yang efisien dan adaptif, menghadirkan kemampuan pembelajaran mendalam dan pengolahan data yang kompleks.</p>
+                </div>
+            </div>
+            <!-- end details product -->
+            
+            <!-- info income profit -->
+            <div class="row font-small py-2 rounded-1">
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Pendapatan Harian</span>
+                        <span class="font-medium fw-bold">Rp.700.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Total Pendapatan</span>
+                        <span class="font-medium fw-bold">Rp.2500.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Periode waktu</span>
+                        <span class="font-medium fw-bold">Rp.5000.000</span>
+                    </div>
+                </div>
+                <!-- end income profite -->
+
+            
+                <!-- button buy -->
+                <div class="container text-center mt-4">
+                    <div class="row bg-200 mx-1">
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path></svg>
+                                </span>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <!-- end button -->
+
+            </div>
+            <!-- end info income -->
+        </div>
+        <!-- end card-body -->
+    </div>
+    <div class="card mt-2 border-3 mx-3">
+        <img src="{{ url_for('static', filename='image/product-ai-robbots.jpg')}}" class="img-card" alt="Sypnatic Chip">
+
+        <!-- card body -->
+        <div class="card-body">
+
+            <!-- details product -->
+            <div class="plan">
+                <div class="inner">
+                    <span class="pricing">
+                        <span>
+                            Rp.50.0000
+                        </span>
+                    </span>
+                    <p class="title">CogniWave</p>
+                    <p class="info">CogniWave adalah inovasi terdepan dalam dunia teknologi AI yang menggabungkan gelombang kecerdasan buatan untuk menciptakan solusi yang menghadirkan kecerdasan baru ke dalam dunia digital.</p>
+                </div>
+            </div>
+            <!-- end details product -->
+            
+            <!-- info income profit -->
+            <div class="row font-small py-2 rounded-1">
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Pendapatan Harian</span>
+                        <span class="font-medium fw-bold">Rp.700.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Total Pendapatan</span>
+                        <span class="font-medium fw-bold">Rp.2500.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Periode waktu</span>
+                        <span class="font-medium fw-bold">Rp.5000.000</span>
+                    </div>
+                </div>
+                <!-- end income profite -->
+
+            
+                <!-- button buy -->
+                <div class="container text-center mt-4">
+                    <div class="row bg-200 mx-1">
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path></svg>
+                                </span>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <!-- end button -->
+
+            </div>
+            <!-- end info income -->
+        </div>
+        <!-- end card-body -->
+    </div>
+    <div class="card mt-2 border-3 mx-3">
+        <img src="{{ url_for('static', filename='image/product-arti.jpg')}}" class="img-card" alt="Sypnatic Chip">
+
+        <!-- card body -->
+        <div class="card-body">
+
+            <!-- details product -->
+            <div class="plan">
+                <div class="inner">
+                    <span class="pricing">
+                        <span>
+                            Rp.50.0000
+                        </span>
+                    </span>
+                    <p class="title">AI Mastermind</p>
+                    <p class="info">AI Mastermind adalah solusi pionir dalam dunia kecerdasan buatan yang merangkul teknologi mutakhir untuk menghasilkan solusi cerdas yang mengoptimalkan analisis data, mengungkap wawasan mendalam, dan membuka potensi baru bagi inovasi.</p>
+                </div>
+            </div>
+            <!-- end details product -->
+            
+            <!-- info income profit -->
+            <div class="row font-small py-2 rounded-1">
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Pendapatan Harian</span>
+                        <span class="font-medium fw-bold">Rp.700.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Total Pendapatan</span>
+                        <span class="font-medium fw-bold">Rp.2500.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Periode waktu</span>
+                        <span class="font-medium fw-bold">Rp.5000.000</span>
+                    </div>
+                </div>
+                <!-- end income profite -->
+
+            
+                <!-- button buy -->
+                <div class="container text-center mt-4">
+                    <div class="row bg-200 mx-1">
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path></svg>
+                                </span>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <!-- end button -->
+
+            </div>
+            <!-- end info income -->
+        </div>
+        <!-- end card-body -->
+    </div>
+    <div class="card mt-2 border-3 mx-3">
+        <img src="{{ url_for('static', filename='image/NeuralFusion Chip.png')}}" class="img-card" alt="Sypnatic Chip">
+
+        <!-- card body -->
+        <div class="card-body">
+
+            <!-- details product -->
+            <div class="plan">
+                <div class="inner">
+                    <span class="pricing">
+                        <span>
+                            Rp.50.0000
+                        </span>
+                    </span>
+                    <p class="title">NeuralFusion Chip</p>
+                    <p class="info">NeuralFusion Chip adalah perpaduan harmonis teknologi neuronik yang memacu kemampuan kecerdasan buatan menuju dimensi baru.</p>
+                </div>
+            </div>
+            <!-- end details product -->
+            
+            <!-- info income profit -->
+            <div class="row font-small py-2 rounded-1">
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Pendapatan Harian</span>
+                        <span class="font-medium fw-bold">Rp.700.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Total Pendapatan</span>
+                        <span class="font-medium fw-bold">Rp.2500.000</span>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="font-color">Periode waktu</span>
+                        <span class="font-medium fw-bold">Rp.5000.000</span>
+                    </div>
+                </div>
+                <!-- end income profite -->
+
+            
+                <!-- button buy -->
+                <div class="container text-center mt-4">
+                    <div class="row bg-200 mx-1">
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path></svg>
+                                </span>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <!-- end button -->
+
+            </div>
+            <!-- end info income -->
+        </div>
+        <!-- end card-body -->
+    </div>
+    <!-- end card product -->
+
+    <div class="py-4 my-3"></div>
+
+  </main>
+
+  <footer class="footer p-2 fixed-bottom text-center">
+    <div class="row footer-items">
+        <a class="col text-color d-flex flex-column button-menu" onclick="activateLogo(this)">
+            <span class="material-icons">home</span>
+            <span>Home</span>
+        </a>
+        <a href="/team" class="col text-color d-flex flex-column button-menu" onclick="activateLogo(this)">
+            <span class="material-icons">groups</span>
+            <span>Team</span>
+        </a>
+        <a href="/rewards" class="col text-color d-flex flex-column button-menu" onclick="activateLogo(this)">
+            <span class="material-icons">emoji_events</span>
+            <span>Rewards</span>
+        </a>
+        <a href="/profile" class="col text-color d-flex flex-column button-menu" onclick="activateLogo(this)">
+            <span class="material-icons">person</span>
+            <span>Person</span>
+        </a>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+    <script src="{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/all.js')}}"></script>
+</body>
+
+</html>

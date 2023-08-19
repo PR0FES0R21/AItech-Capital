@@ -1,0 +1,20 @@
+.user-card {
+    background: linear-gradient(var(--primary-100) 30%, rgb(237, 237, 237) 30%);
+    height: 100vh;
+}
+
+/* custom image size */
+.small-image {
+    width: 50px;
+    height: 50px;
+}
+
+.person-details {
+    display: flex;
+    align-items: center;
+}
+
+.font-small {
+    font-size: 10px;
+}
+

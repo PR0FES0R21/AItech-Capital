@@ -1,0 +1,84 @@
+/* root base color */
+:root {
+    --primary-100:#0085ff;
+    --primary-200:#69b4ff;
+    --primary-300:#e0ffff;
+    --accent-100:#006fff;
+    --accent-200:#e1ffff;
+    --text-100:#FFFFFF;
+    --text-200:#9e9e9e;
+    --bg-100:#1E1E1E;
+    --bg-200:#2d2d2d;
+    --bg-300:#454545;
+}
+
+body {
+    max-width: 576px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-100);
+    background-color: var(--bg-100);
+}
+
+.font-color {
+    color: var(--accent-100);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006fff;
+    
+}
+
+.button-menu:active {
+    background-color: #e0e0e0; /* Ganti dengan warna yang sesuai untuk status aktif */
+}
+
+
+
+/* style untuk footer */
+footer {
+background: var(--text-100);
+font-weight: bold;
+}
+
+.active {
+    color: var(--accent-100);
+}
+
+.navbar {
+    background-color: var(--accent-100);
+    box-shadow: #1E1E1E;
+}
+
+.navbar-language > a {
+    color: #FFFFFF;
+}
+
+.bg-200 {
+    background-color: #a5ccf4;
+}
+
+/* custom icon */
+.icon-color {
+    color: #0085ff;
+}
+
+.custom-icon {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-color {
+    color: var(--bg-300);
+}
+
+.align-horizontal {
+    display: flex;
+    align-items: center;
+}
